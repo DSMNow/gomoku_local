@@ -1,0 +1,8 @@
+.wheel {
+    animation: wheel 3s 1s infinite;
+    animation-direction: alternate;	
+   }
+   @keyframes wheel {
+		from { left: 0; transform: translateX(0vw) rotate(0);}				
+		to { left: 100%; transform: translateX(80vw) rotate(3turn);; }
+	}
